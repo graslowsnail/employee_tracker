@@ -1,0 +1,26 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "employetracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graslowsnail/employee_tracker.git"
+  },
+  "author": "pablo ramiez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graslowsnail/employee_tracker/issues"
+  },
+  "homepage": "https://github.com/graslowsnail/employee_tracker#readme",
+  "dependencies": {
+    "console-table": "^0.1.2",
+    "inquirer": "^8.2.5",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
